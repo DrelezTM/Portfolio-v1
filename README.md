@@ -44,4 +44,4 @@
 * [Instagram](https://www.instagram.com/DrelezTM)
 
 ## License
-* [License](https://github.com/DrelezTM/Al-Quran/blob/main/LICENSE)
+* [License](https://github.com/DrelezTM/Portofolio/blob/main/LICENSE)
