@@ -1,6 +1,6 @@
 # Portofolio
 <p align="center">
-  <img alt="@portofolio" style="width: 150px;" src="https://github.com/DrelezTM/Al-Quran/raw/main/views/img/dreleztm.png">
+  <img alt="@portofolio" style="width: 150px;" src="https://github.com/DrelezTM/Portofolio/raw/main/views/img/dreleztm.png">
 </p>
 <div align="center">
   <h3>Portofolio</h3>
