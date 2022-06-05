@@ -1,0 +1,182 @@
+* {
+	font-family: "PT Sans", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+select, input, label {
+	display: block;
+}
+
+.dropdown-menu a {
+	color: #929292;
+}
+
+.dropdown-menu a:hover {
+	color: #C8C8C8;
+	background-color: #222423;
+}
+
+textarea, select, input {
+	width: 100%;
+	height: 40px;
+	color: white;
+	background-color: #222423;
+	border: 1px #AEAEAE solid;
+	border-radius: 10px;
+}
+
+.toplabel {
+	margin: 0 0 10px 0;
+}
+
+label {
+	margin: 10px 0;
+}
+
+.button {
+	margin: 25px 0 0 0;
+}
+
+select {
+	padding: 5px;
+}
+
+textarea {
+	height: 100px;
+}
+
+textarea,
+input {
+	padding: 5px 10px;
+}
+
+.nav-link i,
+.nav-item i {
+  display: inline-block;
+  width: 35px;
+  font-size: 19px;
+}
+
+.nav-item .fa-youtube,
+.nav-item .fa-discord {
+	width: 37px;
+}
+
+.nav-item .fa-github,
+.nav-item .fa-instagram,
+.nav-item .fa-server,
+.nav-item .fa-comment-dots,
+.nav-link .fa-share-nodes{
+	font-size: 22px;
+	margin-left: 2px;
+}
+
+.landing {
+	text-align: center;
+}
+
+.landing img {
+  margin: 30px auto;
+  width: 300px;
+}
+
+.btn i {
+	display: inline-block;
+  width: 30px;
+}
+
+.judul {
+	text-align: center;
+	color: white;
+	margin: 100px 0 20px 0;
+}
+
+.garis {
+	background-color: white;
+	width: 90%;
+	height: 1px;
+	margin: auto;
+}
+
+.card {
+	margin: 15px 10px;
+	color: white;
+	transition: all 0.3s ease 0s;
+}
+
+.card:hover {
+	transform: translateY(-3px);
+}
+
+.footer {
+	background-color: #222423;
+	text-align: center;
+	margin: 70px 0 0 0;
+	padding: 15px;
+}
+
+.footer p {
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.iconfoot {
+	margin: 10px 0 15px 0;
+}
+
+.iconfoot a {
+	color: white;
+	margin: 10px;
+}
+
+.profile {
+	display: inline-block;
+	width: 30px;
+}
+
+.name-msg {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	margin: 0 0 0 6px;
+	font-size: 18px;
+}
+
+.information-msg {
+	margin: 0 0 10px 0;
+}
+
+.iconfoot a:hover {
+	color: #C8C8C8;
+}
+
+@media (min-width: 992px) {
+  .nav-link i {
+    display: none;
+  }
+
+	.dropdown-item i {
+		display: none;
+	}
+
+	.landing img {
+		width: 400px;
+		margin: 10px auto;
+	}
+
+	.garis {
+		width: 95%;
+	}
+
+	.header {
+		background-color: #222423;
+	}
+
+	.header, .body {
+		padding: 0 80px;
+	}
+}
