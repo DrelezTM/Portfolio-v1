@@ -48,21 +48,28 @@ textarea {
 	height: 100px;
 }
 
-textarea, input {
+textarea,
+input {
 	padding: 5px 10px;
 }
 
-.nav-link i, .nav-item i {
-	display: inline-block;
-	width: 35px;
-	font-size: 19px;
+.nav-link i,
+.nav-item i {
+  display: inline-block;
+  width: 35px;
+  font-size: 19px;
 }
 
-.nav-item .fa-youtube, .nav-item .fa-discord {
+.nav-item .fa-youtube,
+.nav-item .fa-discord {
 	width: 37px;
 }
 
-.nav-item .fa-github, .nav-item .fa-instagram, .nav-item .fa-server, .nav-item .fa-comment-dots, .nav-link .fa-share-nodes{
+.nav-item .fa-github,
+.nav-item .fa-instagram,
+.nav-item .fa-server,
+.nav-item .fa-comment-dots,
+.nav-link .fa-share-nodes{
 	font-size: 22px;
 	margin-left: 2px;
 }
@@ -72,13 +79,13 @@ textarea, input {
 }
 
 .landing img {
-	margin: 30px auto;
-	width: 300px;
+  margin: 30px auto;
+  width: 300px;
 }
 
 .btn i {
 	display: inline-block;
-	width: 30px;
+  width: 30px;
 }
 
 .judul {
@@ -103,6 +110,33 @@ textarea, input {
 .card:hover {
 	transform: translateY(-3px);
 }
+
+.ptitle {
+  color: white;
+  margin: 0 5px;
+}
+
+.pborder {
+  background-color: #303030;
+  border: 3px #303030 solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.ptext {
+  color: white;
+  position: absolute;
+  left: 47%;
+  margin: auto;
+}
+
+.pbody {
+  color: #007AFF;
+  background-color: #007AFF;
+  border-radius: 7px;
+  text-align: center;
+}
+
 
 .footer {
 	background-color: #222423;
@@ -147,10 +181,15 @@ textarea, input {
 	color: #C8C8C8;
 }
 
+.skill {
+	background-color: #222423 !important;
+	border-radius: 10px !important;
+}
+
 @media (min-width: 992px) {
-	.nav-link i {
-		display: none;
-	}
+  .nav-link i {
+    display: none;
+  }
 
 	.dropdown-item i {
 		display: none;
