@@ -1,0 +1,22 @@
+[
+	{
+		"language": "HTML5",
+		"percentage": "95%"
+	},
+	{
+		"language": "CSS3",
+		"percentage": "60%"
+	},
+	{
+		"language": "JavaScript",
+		"percentage": "85%"
+	},
+	{
+		"language": "Python",
+		"percentage": "45%"
+	},
+	{
+		"language": "PHP",
+		"percentage": "35%"
+	}
+]
