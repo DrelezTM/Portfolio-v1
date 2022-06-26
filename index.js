@@ -3,6 +3,7 @@ const app = express();
 const ejs = require("ejs");
 const fs = require("fs");
 const msg = JSON.parse(fs.readFileSync("./views/database/secreto.json"));
+const skill = JSON.parse(fs.readFileSync("./views/database/skills.json"));
 const bodyParser = require('body-parser');
 
 app.set('view engine', 'ejs');
@@ -14,7 +15,7 @@ app.use(bodyParser.urlencoded({
 
 app.get("/", async (req, res) => {
 	if (!req.query.name && !req.query.message && !req.query.gender) {
-		res.render("pages/index");
+		res.render("pages/index", { skill: skill });
 	} else {
 		msg.push({
 			"name": req.query.name,
